@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Food Project</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/css/normalize.css">
+    <link rel="stylesheet" href="vendor/css/grid2.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="resources/css/queries.css">
+    <!-- Uncomment if needed
+    <link rel="stylesheet" href="vendor/css/col.css">
+    <link rel="stylesheet" href="vendor/css/2cols.css">
+    <link rel="stylesheet" href="vendor/css/3cols.css">
+    <link rel="stylesheet" href="vendor/css/4cols.css">
+    <link rel="stylesheet" href="vendor/css/5cols.css">
+    <link rel="stylesheet" href="vendor/css/6cols.css">
+    <link rel="stylesheet" href="vendor/css/7cols.css">
+    <link rel="stylesheet" href="vendor/css/8cols.css">
+    <link rel="stylesheet" href="vendor/css/9cols.css">
+    <link rel="stylesheet" href="vendor/css/10cols.css">
+    <link rel="stylesheet" href="vendor/css/11cols.css">
+    <link rel="stylesheet" href="vendor/css/12cols.css">
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <img class="logo" src="resources/img/logo.png" alt="logo.png">
+                <ul class="main-nav">
+                    <li><a href="#features">Food Delivery</a></li>
+                    <li><a href="#hiw">How It Works</a></li>
+                    <li><a href="#city">Our Cities</a></li>
+                    <li><a href="#sign">Sign-up</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Goodbye Junks! <br>Welcome to Healthy Foods and Beverages!</h1>
+            <a class="btn btn-full" href="#plans">I’m Hungry</a>
+            <a class="btn btn-ghost" href="#features">Let’s Eat Something?</a>
+        </div>
+    </header>
+
+    <section class="section-features" id="features" data-aos="fade-in" data-aos-duration="2000">
+        <div class="row">
+            <h2 class="h2class">Get Food Fast &mdash; Not Fast Food</h2>
+            <p class="long-copy">
+                In a world dominated by fast food, natural foods offer a healthier and more nutritious alternative. Opting for these options can profoundly transform your overall diet and well-being.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <ion-icon class="icon-big" name="infinite-outline"></ion-icon>
+                <h3>Up To 365 Days</h3>
+                <p>
+                    Choosing natural foods supports local agriculture and promotes a more sustainable food system. This choice reduces your carbon footprint, helps preserve the environment, and contributes to a better planet for future generations.
+                </p>
+            </div>
+
+            <div class="col span-1-of-4 box">
+                <ion-icon class="icon-big" name="fast-food-outline"></ion-icon>
+                <h3>100% Organic</h3>
+                <p>
+                    Plan meals, shop for fresh items, and cook at home to make the switch to natural foods effortlessly. Small changes in your eating habits can lead to significant and lasting health improvements, making the transition easier.
+                </p>
+            </div>
+
+            <div class="col span-1-of-4 box">
+                <ion-icon class="icon-big" name="infinite-outline"></ion-icon>
+                <h3>Ready In 20 Minutes</h3>
+                <p>
+                    Fresh fruits, vegetables, and whole grains provide essential nutrients that processed foods often lack. They support a balanced diet, boost your immune system, and significantly enhance your health.
+                </p>
+            </div>
+
+            <div class="col span-1-of-4 box">
+                <ion-icon class="icon-big" name="cart-outline"></ion-icon>
+                <h3>Order Anything</h3>
+                <p>
+                    Natural foods improve digestion, sustain energy, and contribute to overall well-being. They help maintain a healthy weight and prevent chronic diseases, making them essential for a healthier lifestyle in the long run.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-meals" data-aos="fade-in" data-aos-duration="2000">
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/1.jpg" alt="food-img">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/2.jpg" alt="food-img">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/3.jpg" alt="food-img">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/4.jpg" alt="food-img">
+                </figure>
+            </li>
+        </ul>
+
+        <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/5.jpg" alt="food-img">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/6.jpg" alt="food-img">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/7.jpg" alt="food-img">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="resources/img/8.jpg" alt="food-img">
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-steps" id="hiw" data-aos="fade-in" data-aos-duration="2000">
+        <div class="row">
+            <h2 class="h2class">How It Works &mdash; Simple as 1,2,3</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img data-aos="slide-left" data-aos-duration="1000" src="resources/img/app-iPhone.png" alt="phone" class="app-screen">
+            </div>
+
+            <div class="col span-1-of-2 steps-box">
+                <div class="works-step">
+                    <div>1</div>
+                    <p>Choose a plan that’s best for your needs and sign up today.</p>
+                </div>
+
+                <div class="works-step">
+                    <div>2</div>
+                    <p>Pay for the plan and download the app.</p>
+                </div>
+
+                <div class="works-step">
+                    <div>3</div>
+                    <p>You're Done! Start Ordering.</p>
+                </div>
+
+                <a href="#" class="btn-app" ><img src="resources/img/download-app-android.png" alt="playtore"></a>
+                <a href="#" class="btn-app" ><img src="resources/img/app3.jpg" alt="appstore"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cities" id="city" data-aos="fade-in" data-aos-duration="2000">
+        <div class="row">
+            <h2 class="h2class">We Are Currently In These Cities</h2>
+        </div>
+
+        <div class="row">
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/lisbon-3.jpg" alt="lisbon">
+                <h3>Lisbon</h3>
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="person-circle-outline"></ion-icon>
+                    1600+ Happy Eaters
+                </div>
+
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="star-sharp"></ion-icon>
+                    15+ Great local Chefs
+                </div>
+
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                    <a href="#">@omnifoodli</a>
+                </div>
+            </div>
+
+            <div class="col span-1-of-4 box" >
+                <img src="resources/img/Berlin.jpg" alt="Berlin">
+                <h3>Berlin</h3>
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="person-circle-outline"></ion-icon>
+                    1200+ Happy Eaters
+                </div>
+
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="star-sharp"></ion-icon>
+                    12+ Great local Chefs
+                </div>
+
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                    <a href="#">@omnifoodbe</a>
+                </div>
+            </div>
+
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/london.jpg" alt="london">
+                <h3>London</h3>
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="person-circle-outline"></ion-icon>
+                    1800+ Happy Eaters
+                </div>
+
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="star-sharp"></ion-icon>
+                    18+ Great local Chefs
+                </div>
+
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                    <a href="#">@omnifoodlo</a>
+                </div>
+            </div>
+
+            <div class="col span-1-of-4 box">
+                <img src="resources/img/san-francisco.jpg" alt="san-francisco">
+                <h3>San Francisco</h3>
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="person-circle-outline"></ion-icon>
+                    1000+ Happy Eaters
+                </div>
+
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="star-sharp"></ion-icon>
+                    7+ Great local Chefs
+                </div>
+
+                <div class="city-features">
+                    <ion-icon class="icon-small" name="logo-twitter"></ion-icon>
+                    <a href="#">@omnifoodsf</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-testimonials" data-aos="fade-in" data-aos-duration="2000">
+        <div class="row">
+            <h2 class="h2class">Our Customer Cant Live Without Us</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    "I’m impressed with [Your Cafe]’s real-time order updates. I received notifications at every stage of my delivery, and the food arrived hot and exactly as ordered. The level of service and quality was exceptional!"
+                    <cite><img src="resources/img/customer-1.jpg" alt="customer1">Alex Johnson</cite>
+                </blockquote>
+            </div>
+
+            <div class="col span-1-of-3">
+                <blockquote>
+                    "The live chat support for customizing our catering order was a game-changer. We could make real-time adjustments and get immediate answers to our questions. The event went off without a hitch, thanks!"
+                    <cite><img src="resources/img/customer-2.jpg" alt="customer2">Olivia Brown</cite>
+                </blockquote>
+            </div>
+
+            <div class="col span-1-of-3">
+                <blockquote>
+                    "I just had a fantastic experience ordering from [Your Restaurant]. The live tracking feature for my delivery was incredibly helpful. I knew exactly when my meal was arriving, and it was fresh and delicious right on time!"
+                    <cite><img src="resources/img/customer-3.jpg" alt="customer3">James lee</cite>
+                </blockquote>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-plans" id="plans" data-aos="fade-in" data-aos-duration="2000">
+
+        <div class="row">
+            <h2 class="h2class">Start Eating HEalthy Foods</h2>
+        </div>
+
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div data-aos="zoom-in" data-aos-duration="2000">
+                        <h3>Premium Plan</h3>
+                        <p class="plan-price">7500Rs <span>/Month</span></p>
+                        <p class="plan-price-meal">250RS/Meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>1 meal every day</li>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>Order * 24/7</li>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>Access to new creations</li>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>Free delivery on order above 250RS</li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign-Up</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div data-aos="zoom-in" data-aos-duration="2000">
+                        <h3>Standard Plan</h3>
+                        <p class="plan-price">4500Rs<span>/Month</span></p>
+                        <p class="plan-price-meal">150RS/Meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>1 meal every day</li>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>Order * 24/7</li>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>Access to new creations</li>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>Free delivery on order above 250RS</li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign-Up</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div data-aos="zoom-in" data-aos-duration="2000">
+                        <h3>Basic Plan</h3>
+                        <p class="plan-price">3000Rs<span>/Month</span></p>
+                        <p class="plan-price-meal">100RS/Meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>1 meal every day</li>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>Order * 24/7</li>
+                            <li><ion-icon class="icon-small" name="close-circle-outline"></ion-icon>Access to new creations</li>
+                            <li><ion-icon class="icon-small" name="checkmark-circle-outline"></ion-icon>Free delivery on order above 250RS</li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign-Up</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <section class="section-form" id="sign" data-aos="fade-in" data-aos-duration="2000">
+        <div class="row">
+            <h2 class="h2class">We Are Happy To Hear From You</h2>
+        </div>
+        <div class="row">
+            <form action="#" method="post" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="name" placeholder="Email">
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>How Did you Find US?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="Find us" id="Find Us">
+                        <option value="Friends">Friends</option>
+                        <option value="Search">Google Search</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Other">Other</option></select>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>NewsLetter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop a Line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                      <textarea name="text" id="ta" cols="30" rows="10"></textarea>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="Submit" value="Send">
+
+                    </div>
+
+                </div>
+
+
+
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">IOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                    <li><a href="#">Learn more</a></li>
+
+                </ul>
+     
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><ion-icon class="fb" name="logo-facebook"></ion-icon></li>
+                    <li><ion-icon class="tr" name="logo-twitter"></ion-icon></li>
+                    <li><ion-icon class="ge" name="logo-google"></ion-icon></li>
+                    <li><ion-icon class="im" name="logo-instagram"></ion-icon></li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <p>copyright &copy; 2024 By Hygine_Foods.All rights reserved</p>
+
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+
+
+</body>
+</html>
+
+
+                
+
+            
